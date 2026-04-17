@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #3A5A40;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+}
+

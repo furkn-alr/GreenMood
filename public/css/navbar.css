@@ -1,0 +1,62 @@
+.navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+body{
+    min-height: 100vh;
+    background-image: url("../img/herobg.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.navbar .wrapper{
+    width: 100%;
+    display: flex;
+}
+.navbar .left, .navbar .right{
+    margin-top: 15px;
+}
+.navbar .left{
+    position: relative;
+    height: 30px;
+    flex: 9;
+    left: 20px;
+}
+.navbar .wrapper .left img{
+    width: 10%;
+    justify-self:center ;
+}
+.navbar .left .homepage{
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.2s ease;
+    border-bottom: 1.5px solid transparent;
+    border-top: 1.5px solid transparent;
+    padding: 2px 4px;
+}
+.navbar .left .homepage:hover{
+    text-shadow: 0px 0px 2px rgb(156, 199, 156);
+    border-bottom: 1.5px solid #3A5A40;
+    border-top: 1.5px solid #3A5A40;
+}
+.navbar .right{
+    flex: 3;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    position: relative;
+    right: 20px;
+    gap: 12px;
+}
+.navbar .right a{
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    border-bottom: 1.5px solid transparent;
+    transition: all 0.2s ease-in-out;
+    padding: auto;
+}
+.navbar .right a:hover{
+    border-bottom: 1px solid #598b62f1;
+}
